@@ -1,0 +1,9 @@
+{
+	"A4E_client_id": "d93938ab27609ba060bc",
+	"A4E_api_key": "7f4a04df-dfec-4067-8186-c8c2ab5223ae",
+	"A4E_API_hostname": "api.amp.cisco.com",
+	"A4E_group_names": ["MANGO Protect","MANGO Servers","MANGO Domain Controller"],
+	"FMC_ipaddress": "10.20.60.13",
+	"FMC_host_vuln_db_overwrite_OR_update": "update",
+	"push_changes_to_fmc": true
+}

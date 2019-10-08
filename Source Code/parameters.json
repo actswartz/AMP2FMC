@@ -1,0 +1,11 @@
+# AFTER UPDATING THIS FILE, REMOVE ALL THE COMMENTS, INCLUDING THIS LINE
+# YOU MAY LOOK AT 'sample - parameters.json' FILE FOR EXAMPLE
+{
+    "A4E_client_id": "<from amp for endpoints>",
+    "A4E_api_key": "<from amp for endpoints>",
+    "A4E_API_hostname": "api.amp.cisco.com",                         # <change it to US/EU/APJ AMP cloud as applicable - "api.amp.cisco.com" / "api.eu.amp.cisco.com" / "api.apjc.amp.cisco.com"
+    "A4E_group_names": ["<AMP Group Name 1>","<AMP Group Name 2>"],  # <list of AMP for Endpoints groups to be queried>. The RECOMMENDED GROUPS are endpoints having static IP addresses like Server segments or desktops with static addresses
+    "FMC_ipaddress": "<FMC ipaddress>",                              # <DO NOT PROVIDE A HOSTNAME. JUST PROVIDE AN IP ADDRESS>
+    "FMC_host_vuln_db_overwrite_OR_update": "update",                # "update" OR "overwrite", Recommeneded is "update"
+    "push_changes_to_fmc": true                                      # true or false (without quotes)
+}
